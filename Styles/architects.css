@@ -87,38 +87,36 @@ section {
 
 /* Features Section */
 
-.Features-title{
+.Features-title {
   border-left: 5px solid rgba(255, 144, 14, 1);
   padding-left: 20px;
 }
-.Features{
+.Features {
   display: flex;
   margin-top: 130px;
   gap: 130px;
 }
-.Features-card-title{
+.Features-card-title {
   font-size: 1.25rem;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.Features-card{
+.Features-card {
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
   margin-bottom: 25px;
   padding: 30px 40px;
   border-radius: 8px;
 }
-.experiance-year{
+.experiance-year {
   font-size: 600;
   font-size: 4.063rem;
 }
-#experiancesrd{
+#experiancesrd {
   margin-left: -100px;
   margin-top: -100px;
 }
-.arcitects-pic img{
-  
-}
-.card-marg{
+
+.card-marg {
   margin-top: 30px;
 }
 .Facts-first {
@@ -154,25 +152,24 @@ section {
 .Sponspor-pic img {
   filter: grayscale(100%);
 }
-.footer-container{
+.footer-container {
   margin-top: 120px;
 }
-.footer-content{
+.footer-content {
   text-align: center;
   background-color: rgba(255, 244, 231, 1);
-
 }
-.footer-content p{
+.footer-content p {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 
 @media screen and (max-width: 576px) {
   nav {
     flex-direction: column;
   }
-  .Quick-container {
+  .Quick-container,
+  .Features {
     flex-direction: column;
   }
   .Quick-photo {
@@ -189,5 +186,12 @@ section {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     gap: 30px;
+  }
+  .arcitects-pic img {
+    width: 100%;
+  }
+  #experiancesrd {
+    margin-left: 100px;
+    margin-top: -100px;
   }
 }
